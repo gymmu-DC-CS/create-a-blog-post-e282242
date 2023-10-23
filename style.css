@@ -41,6 +41,16 @@ body {
   text-decoration: none;
 }
 
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+} 
+
 /* Change color on hover */
 .topnav a:hover {
   background-color: #ddd;
@@ -83,13 +93,7 @@ body {
   clear: both;
 }
 
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
-}
+
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
@@ -106,3 +110,4 @@ body {
     width: 100%;
   }
 }
+
