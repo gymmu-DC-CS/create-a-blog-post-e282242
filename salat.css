@@ -2,4 +2,14 @@
     background-color: aquamarine;
     text-align: center;
     padding: 50p;
+    width: auto;
+    
 }
+
+div {
+    background-color: rgb(187, 187, 239);
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+}
+
