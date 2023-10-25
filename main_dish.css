@@ -7,7 +7,7 @@
 }
 
 div {
-    background-color: rgb(235, 142, 229);
+    background-color: rgb(235, 187, 142);
     width: auto;
     margin: 20px;
     padding-left: 25px;
@@ -40,11 +40,11 @@ div {
     margin-right: auto;
  }
 
- a:hover,a:active {
-        background-color: blue;
+ a:hover{
+    background-color: blue;
  }
 
- a:link, a:visited {
+  link a{
     background-color: teal;
     color: white;
     padding: 14px 25px;
