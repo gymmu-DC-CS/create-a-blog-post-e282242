@@ -1,5 +1,5 @@
 .header {
-    background-color: aquamarine;
+    background-color: rgb(255, 127, 187);
     text-align: center;
     padding: 50p;
     width: auto;
@@ -7,7 +7,7 @@
 }
 
 div {
-    background-color: rgb(187, 187, 239);
+    background-color: rgb(234, 170, 211);
     width: auto;
     margin: 20px;
     padding-left: 25px;
@@ -41,11 +41,11 @@ div {
  }
 
  a:hover,a:active {
-        background-color: blue;
+        background-color: pink;
  }
 
  a:link, a:visited {
-    background-color: teal;
+    background-color: rgb(254,52,126);
     color: white;
     padding: 14px 25px;
     text-align: center;

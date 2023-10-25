@@ -1,5 +1,54 @@
 .header {
-    background-color: aquamarine;
+    background-color: rgb(255, 127, 187);
     text-align: center;
     padding: 50p;
+    width: auto;
+    
 }
+
+div {
+    background-color: rgb(235, 142, 229);
+    width: auto;
+    margin: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    border-radius: 5px;
+    border: 2px solid green;
+}
+
+
+
+  /* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+ img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ a:hover,a:active {
+        background-color: blue;
+ }
+
+ a:link, a:visited {
+    background-color: teal;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
