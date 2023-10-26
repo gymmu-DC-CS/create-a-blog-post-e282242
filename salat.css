@@ -85,25 +85,7 @@ div {
 
   }
 
-  #box {
-    width: 100px;
-    height: 100px;
-    background-color:olive;
-    position: relative;
-    animation-name: box;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-}
-
-
-@keyframes box {
-    0% {background-color: olive; left: 0px; top: 0px}
-    25% {background-color:darkcyan; left: 200px; top: 0px;}
-    50% {background-color: blue; left: 0px; top: 0px;}
-    75% {background-color: aquamarine; left: 200px; top: 0px;}
-    100% {background-color: brown; left: 0px; top: 0px;}
-}
+ 
 
 .icon {
   position: relative;
@@ -113,11 +95,11 @@ div {
 }
 
 @keyframes icon{
-  0% {left: 0px; bottom: 0px;}
-  25% {left: 1050px; bottom: 0px;}
-  50% {left: 1050px; bottom: 1140px;}
-  75% {left: 0px; bottom: 1140px;}
-  100% {left: 0px; bottom: 0px;}
+  0% {left: 9px; bottom: 9px;}
+  25% {left: 1055px; bottom: 9px;}
+  50% {left: 1055px; bottom: 1160px;}
+  75% {left: 6px; bottom: 1160px;}
+  100% {left: 6px; bottom: 9px;}
 }
 
 

@@ -1,11 +1,106 @@
 .header {
-    background-color: aquamarine;
+    background-color: rgb(255, 127, 187);
     text-align: center;
-    padding: 50p;
+    padding-top: 5px;
+    padding-bottom: 5px;
     width: auto;
-    height: 100px;
+    font-size: 150%;
+    
 }
 
+div {
+    background-color: rgb(234, 170, 211);
+    width: auto;
+    margin: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    border-radius: 5px;
+    border: 2px solid green;
+    
+}
+
+
+
+  /* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 55px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+ img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #0a5105;
+    border-radius: 4px;
+    padding: 5px;
+    width: auto;
+
+ }
+
+
+
+  a:link, a:visited {
+    background-color: rgb(222, 40, 71);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: black;
+    left: 7px;
+    right: auto;
+    
+    
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(255, 0, 195);
+  }
+
+  .boxofK{
+    background-color: rgb(234, 170, 211);
+    text-align: center;
+    border: 2px solid green;
+    padding: 5px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 810px;
+    
+
+  }
+
+ 
+
+.icon {
+  position: relative;
+  animation-name: icon;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes icon{
+  0% {left: 9px; bottom: 9px;}
+  25% {left: 1055px; bottom: 9px;}
+  50% {left: 1055px; bottom: 1160px;}
+  75% {left: 6px; bottom: 1160px;}
+  100% {left: 6px; bottom: 9px;}
+}
 
 
 
