@@ -1,5 +1,5 @@
 .header {
-    background-color: rgb(255, 127, 187);
+    background-color: rgb(244, 226, 139);
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -8,16 +8,16 @@
     
 }
 
-div {
-    background-color: rgb(234, 170, 211);
+div{
+    background-color: rgb(244, 226, 139);
     width: auto;
     margin: 20px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 10px;
     padding-top: 10px;
     border-radius: 5px;
-    border: 2px solid green;
+    border: 2px solid rgb(128, 0, 0);
     
 }
 
@@ -37,11 +37,11 @@ div {
     clear: both;
   }
 
- img{
+  img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #0a5105;
+    border: 1px solid rgb(128, 0, 0);
     border-radius: 4px;
     padding: 5px;
     width: auto;
@@ -51,7 +51,7 @@ div {
 
 
   a:link, a:visited {
-    background-color: rgb(222, 40, 71);
+    background-color: rgb(106, 203, 119);
     color: white;
     padding: 14px 25px;
     text-align: center;
@@ -69,21 +69,19 @@ div {
   }
   
   a:hover, a:active {
-    background-color: rgb(255, 0, 195);
+    background-color: rgb(55, 143, 125);
   }
 
   .boxofK{
-    background-color: rgb(234, 170, 211);
+    background-color: rgb(244, 226, 139);
     text-align: center;
-    border: 2px solid green;
+    border: 2px solid rgb(128, 0, 0);
     padding: 5px;
     margin-top: 50px;
     margin-bottom: 5px;
     margin-left: 20px;
     margin-right: 810px;
-    
-
-  }
+    }
 
  
 
@@ -101,6 +99,30 @@ div {
   75% {left: 6px; bottom: 1160px;}
   100% {left: 6px; bottom: 9px;}
 }
+
+.title{
+    text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.columnStory {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  margin: 20px;
+   
+}
+
+
+
+
+
+
+
 
 
 
