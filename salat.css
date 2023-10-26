@@ -105,22 +105,22 @@ div {
     100% {background-color: brown; left: 0px; top: 0px;}
 }
 
-#icon {
+.icon {
   position: relative;
   animation-name: icon;
-  animation-duration: 4s;
+  animation-duration: 15s;
   animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
+}
+
+@keyframes icon{
+  0% {left: 0px; bottom: 0px;}
+  25% {left: 1050px; bottom: 0px;}
+  50% {left: 1050px; bottom: 1140px;}
+  75% {left: 0px; bottom: 1140px;}
+  100% {left: 0px; bottom: 0px;}
 }
 
 
-@keyframes icon {
-  0% {background-color: olive; left: 0px; top: 0px}
-  25% {background-color:darkcyan; left: 200px; top: 0px;}
-  50% {background-color: blue; left: 0px; top: 0px;}
-  75% {background-color: aquamarine; left: 200px; top: 0px;}
-  100% {background-color: brown; left: 0px; top: 0px;}
-}
 
 
 
