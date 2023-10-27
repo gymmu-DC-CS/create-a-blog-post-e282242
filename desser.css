@@ -1,5 +1,6 @@
+ /* This will create the box/header where the titel of the website is. */
 .header {
-    background-color: rgb(244, 226, 139);
+    background-color: rgb(235, 209, 79);
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -8,6 +9,7 @@
     
 }
 
+ /* Everything what will be written with div has this layout */
 div{
     background-color: rgb(244, 226, 139);
     width: auto;
@@ -23,7 +25,7 @@ div{
 
 
 
-  /* Create three equal columns that floats next to each other */
+  /* Creates equal colums which float next to each other */
 .column {
     float: left;
     width: 33.33%;
@@ -37,7 +39,8 @@ div{
     clear: both;
   }
 
-  img{
+ /* Everything image with the title="rice" will be styled with this code */  
+[title~="rice"]{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -45,21 +48,11 @@ div{
     border-radius: 4px;
     padding: 5px;
     width: auto;
-
  }
 
-.rice{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid rgb(128, 0, 0);
-  border-radius: 4px;
-  padding: 5px;
-  width: auto;
-
-}
 
 
+ /* Box with a link and text which is linked, before you click on the link*/
   a:link, a:visited {
     background-color: rgb(106, 203, 119);
     color: white;
@@ -77,11 +70,13 @@ div{
     
     
   }
-  
+
+   /* If you go over=hover the box with the link if will change it's colour. */
   a:hover, a:active {
     background-color: rgb(55, 143, 125);
   }
 
+   /* Creates the box where the name of the dessert is listed. */
   .boxofK{
     background-color: rgb(244, 226, 139);
     text-align: center;
@@ -93,67 +88,69 @@ div{
     margin-right: 810px;
     }
 
- 
 
-.icon {
-  position: relative;
-  animation-name: icon;
-  animation-duration: 15s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes icon{
-  0% {left: 9px; bottom: 9px;}
-  25% {left: 1055px; bottom: 9px;}
-  50% {left: 1055px; bottom: 1160px;}
-  75% {left: 6px; bottom: 1160px;}
-  100% {left: 6px; bottom: 9px;}
-}
-
+/* Creates that the name of the dessert is in the center of its box*/
 .title{
     text-align: center;
 }
 
+ /* Is responsible that the box-sizing takes into account the padding of the text and adjust to it.*/
 * {
   box-sizing: border-box;
 }
 
 
-.columnStory {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  margin: 20px;
-   
+ /* Create the position of the tooltip*/
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
 }
 
-
-div.gallery {
-  margin: 5px;
-  border: 1px solid rgb(128, 0, 0);
-  float: left;
-  width: 180px;
-  column-gap: 40px;
-  
-
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
+ /* Styles the actual text in the tooltip which is hidden but will be visible on hover */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
   text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 110%;
 }
 
-* {
-  box-sizing: border-box;
+ /* Create what will happen if you end the hover-action */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+
+/* If you the tooltiptext is visible, this code "says" how visiblw the tooltiptext and the box is.*/
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+ /* Create the style of specifice images which are labeled with the title="culture" */
+[title~="culture"]{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  border: 2px solid rgb(128, 0, 0);
+  border-radius: 4px;
+  padding: 5px;
+  width: 450px;
 }
 
 

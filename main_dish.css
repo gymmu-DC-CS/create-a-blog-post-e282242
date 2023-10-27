@@ -1,5 +1,6 @@
+/* This will create the box/header where the titel of the website is. */
 .header {
-  background-color: rgb(255, 127, 187);
+  background-color: rgb(202, 150, 120);
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -7,9 +8,9 @@
   font-size: 150%;
   
 }
-
+/* Everything what will be written with div has this layout */
 div {
-  background-color: rgb(234, 170, 211);
+  background-color: rgb(222, 149, 100);
   width: auto;
   margin: 20px;
   padding-left: 25px;
@@ -17,13 +18,13 @@ div {
   padding-bottom: 25px;
   padding-top: 10px;
   border-radius: 5px;
-  border: 2px solid green;
+  border: 2px solid rgb(77, 36, 75);
   
 }
 
 
 
-/* Create three equal columns that floats next to each other */
+/* Create equal columns that floats next to each other */
 .column {
   float: left;
   width: 33.33%;
@@ -37,11 +38,12 @@ div {
   clear: both;
 }
 
+ /* Creates the styling of the images*/
 img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #0a5105;
+  border: 1px solid rgb(77, 36, 75);
   border-radius: 4px;
   padding: 5px;
   width: auto;
@@ -49,9 +51,9 @@ img{
 }
 
 
-
+ /* Box with a text which is linked, before you click on the link*/
 a:link, a:visited {
-  background-color: rgb(222, 40, 71);
+  background-color: rgb(90, 74, 192);
   color: white;
   padding: 14px 25px;
   text-align: center;
@@ -68,36 +70,22 @@ a:link, a:visited {
   
 }
 
+/* If you go over=hover the box with the link if will change it's colour. */
 a:hover, a:active {
-  background-color: rgb(255, 0, 195);
+  background-color: rgb(119, 75, 213);
 }
 
+/* Create the box where the name of the dessert is listed. */
 .boxofK{
-  background-color: rgb(234, 170, 211);
+  background-color: rgb(222, 149, 100);
   text-align: center;
-  border: 2px solid green;
+  border: 2px solid rgb(77, 36, 75);
   padding: 5px;
   margin-top: 50px;
   margin-bottom: 5px;
   margin-left: 20px;
   margin-right: 810px;
-  
-
 }
 
 
 
-.icon {
-position: relative;
-animation-name: icon;
-animation-duration: 15s;
-animation-iteration-count: infinite;
-}
-
-@keyframes icon{
-0% {left: 9px; bottom: 9px;}
-25% {left: 1055px; bottom: 9px;}
-50% {left: 1055px; bottom: 1160px;}
-75% {left: 6px; bottom: 1160px;}
-100% {left: 6px; bottom: 9px;}
-}

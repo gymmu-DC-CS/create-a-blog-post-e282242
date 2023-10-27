@@ -1,3 +1,4 @@
+ /* This will create the box/header where the titel of the website is. */
 .header {
     background-color: rgb(255, 127, 187);
     text-align: center;
@@ -8,6 +9,7 @@
     
 }
 
+ /* Everything what will be written with div has this layout */
 div {
     background-color: rgb(234, 170, 211);
     width: auto;
@@ -23,7 +25,7 @@ div {
 
 
 
-  /* Create three equal columns that floats next to each other */
+  /* Create equal columns that floats next to each other */
 .column {
     float: left;
     width: 33.33%;
@@ -37,6 +39,7 @@ div {
     clear: both;
   }
 
+  /* Creates the styling of the images*/
  img{
     display: block;
     margin-left: auto;
@@ -49,7 +52,7 @@ div {
  }
 
 
-
+ /* Box with a text which is linked, before you have clicked on link.*/
   a:link, a:visited {
     background-color: rgb(222, 40, 71);
     color: white;
@@ -67,11 +70,13 @@ div {
     
     
   }
-  
+
+  /* If you go over=hover the box with the link if will change it's colour. */
   a:hover, a:active {
     background-color: rgb(255, 0, 195);
   }
 
+   /* Create the box where the name of the salad is listed. */
   .boxofK{
     background-color: rgb(234, 170, 211);
     text-align: center;
@@ -86,7 +91,7 @@ div {
   }
 
  
-
+/* Creates the icons position and here you find informations about the animation. */
 .icon {
   position: relative;
   animation-name: icon;
@@ -94,11 +99,12 @@ div {
   animation-iteration-count: infinite;
 }
 
+/* Create the position of the icon during the animation. */
 @keyframes icon{
   0% {left: 9px; bottom: 9px;}
   25% {left: 1055px; bottom: 9px;}
-  50% {left: 1055px; bottom: 1160px;}
-  75% {left: 6px; bottom: 1160px;}
+  50% {left: 1055px; bottom: 1055px;}
+  75% {left: 6px; bottom: 1055px;}
   100% {left: 6px; bottom: 9px;}
 }
 

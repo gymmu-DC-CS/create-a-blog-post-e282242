@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Blog</title>
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
     <link rel="stylesheet" href="desser.css">
+    <!-- To add a icon to you website from fontawesome you have to create an account and then you got a link. This link must be copied and added between the "head" so you can use the icons form fontawesome-->
     <script src="https://kit.fontawesome.com/0c143dfd90.js" crossorigin="anonymous"></script>
     
 </head>
@@ -17,7 +17,8 @@
   <h1>Sticky rice with mango</h1>
 </div>
 <div class="row">
-    <div class="columnStory">
+    <div class="column" style="float: left; position: relative; left: 140px">
+      <!-- The recepies aren't copied form the internet but are family recipies.-->
       <h2>Ingrediens</h2>
       <ul>
         <li>2 mangos</li>
@@ -29,12 +30,9 @@
         <li>2 spoons dried mung beans</li>
 
       </ul>
-     
-      
-     
     </div>
     
-    <div class="column">
+    <div class="column" style="float: left; position: relative; left: 140px">
       <h2>Instruction</h2>
       <ol>
         <li>Wash the rice until the water is clear and at least 4 hours or overnight
@@ -48,79 +46,53 @@
         <li>Roast mung beans in a pan over medium heat while stirring.</li>
         <li>Divide the rice and mangoes onto plates, pour coconut sauce over it and sprinkle with mung beans.</li>
       </ol>
-      <p> <i class="fa-regular fa-bowl-rice fa-bounce"></i>  Enjoy</p> 
+      <!-- This code I have copied form fontawesom.com . There are a lot of icons you can put into your website. For each icon there is a code which you can copie directly-->
+      <p><i class="fa-regular fa-bowl-rice fa-bounce"></i>  Enjoy</p> 
       
     </div>
-    
-
 </div>
 
+<img src="mango-sticky.jpg" title="rice" alt="Picture_of_Dessert" height="300px" width="auto" id="rice">
 
-
-
-<img src="mango-sticky.jpg" alt="Picture_of_Dessert" height="300px" width="auto" id="rice">
-
+<!-- If you click on the text in the box you will be sent to the corresponding website.-->
 <a href="https://www.youtube.com/watch?v=M7_WdFhI7Hk" target="_blank" style="margin: 15px;" >Click here to see a toturial</a>
 
-<h2 class="title">The story of stiky rice with mango </h2>
+<h2 class="title">The story of sticky rice with mango</h2>
 
 
   <div class="column" style="float: left; position: relative; left: 140px">
     <h2>The origin</h2>
-    <p>The origin of sticky rice with mangos dates back to the late Ayutthaya period. This was between 1351 and 1767. During this period the Thai Kings became very powerful. We know that even during this time, sticky rice with mango whas a popular seet dessert thanks to a verso of that time.</p>
+    <p>The origin of sticky rice with mangos dates back to the late Ayutthaya period. This was between 1351 and 1767. During this period the Thai kings became very powerful. We know that even during this time, sticky rice with mango whas a popular seet dessert thanks to a verso of that time.</p>
   </div>
   <div class="column" style="float: left; position: relative; left: 140px">
     <h2>Nowadays</h2>
-    <p>Today sticky rice is not only a common dessert in Thailand but also in Laos and the Phillippines. In Laos it is a nationality dessert and gets served also with sesam seeds. In the philippines sticky rice is also made with puto maya or hot chocolate. If you visite Thailand, you will see that it is a popular streetfood there.</p>
-  </div>
-
-  <img src="laos.jpg" alt="Sticky_Rice_Laos" style="height: 400px; left: 20px;margin: 10px;" >
-  <img src="philippine.jpg" alt="Sticky_Rice_Philippine" style="height: 400px;left: 20px;margin: 10px;">
-  <img src="thai.jpg" alt="Sticky_Rice_Thailand" style="height: 400px;left: 20px; margin: 10px;">
-  
-  
-
-    <div class="gallery">
-      
-        <img src="laos.jpg" alt="Cinque Terre" width="600" height="400">
-     
-      <div class="desc">Add a description of the image here</div>
-    </div>
+    <!-- To create a tiptool i had help form https://stackoverflow.com/questions/50098400/css-tooltip-highlight-one-word-not-whole-text to create a tiptool for only one word and not a whole sentenc. -->
+    <p>Today sticky rice is not only a common dessert in Thailand but also in Laos and the Phillippines. In Laos it is a nationality dessert and gets served also with sesam seeds. In the philippines sticky rice is also made with <span class="tooltip">puto mana<span class="tooltiptext">type of sticky rice cake</span></span> or hot chocolate. If you visite Thailand, you will see that it is a popular streetfood there.</p>
     
-    <div class="gallery">
-     
-        <img src="philippine.jpg" alt="Forest" width="600" height="400">
-      
-      <div class="desc">Add a description of the image here</div>
-    </div>
-    
-    <div class="gallery">
-      
-        <img src="thai.jpg" alt="Northern Lights" width="600" height="400">
-    
-      <div class="desc">Add a description of the image here</div>
-    </div>
-
   </div>
 
 
+  
+  <img src="laos.jpg" title="culture" alt="RiceLaos"> 
+  
+  <img src="philippine.jpg" title="culture" alt="RicePhilippines">
+
+  <img src="thai.jpg" title="culture" alt="RiceThai">
 
  
   
-
-  
-  
-  
-  
-
+ 
 
 
   
   
+  
+ 
+
+  
 
 
-    
-      
+
  </body>
 </html>
 
