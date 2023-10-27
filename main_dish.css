@@ -6,7 +6,6 @@
   padding-bottom: 5px;
   width: auto;
   font-size: 150%;
-  
 }
 /* Everything what will be written with div has this layout */
 div {
@@ -19,10 +18,7 @@ div {
   padding-top: 10px;
   border-radius: 5px;
   border: 2px solid rgb(77, 36, 75);
-  
 }
-
-
 
 /* Create equal columns that floats next to each other */
 .column {
@@ -38,8 +34,8 @@ div {
   clear: both;
 }
 
- /* Creates the styling of the images*/
-img{
+/* Creates the styling of the images*/
+img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -47,12 +43,11 @@ img{
   border-radius: 4px;
   padding: 5px;
   width: auto;
-
 }
 
-
- /* Box with a text which is linked, before you click on the link*/
-a:link, a:visited {
+/* Box with a text which is linked, before you click on the link*/
+a:link,
+a:visited {
   background-color: rgb(90, 74, 192);
   color: white;
   padding: 14px 25px;
@@ -66,17 +61,16 @@ a:link, a:visited {
   border-color: black;
   left: 7px;
   right: auto;
-  
-  
 }
 
 /* If you go over=hover the box with the link if will change it's colour. */
-a:hover, a:active {
+a:hover,
+a:active {
   background-color: rgb(119, 75, 213);
 }
 
 /* Create the box where the name of the dessert is listed. */
-.boxofK{
+.boxofK {
   background-color: rgb(222, 149, 100);
   text-align: center;
   border: 2px solid rgb(77, 36, 75);
@@ -86,6 +80,3 @@ a:hover, a:active {
   margin-left: 20px;
   margin-right: 810px;
 }
-
-
-

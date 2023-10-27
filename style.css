@@ -23,8 +23,6 @@ body {
   background: white;
 }
 
-
-
 /* Styles the navigation bar */
 .topnav {
   overflow: hidden;
@@ -42,14 +40,14 @@ body {
 }
 
 /* Styles the search box inside the navigation bar */
-.topnav input[type=text] {
+.topnav input[type="text"] {
   float: right;
   padding: 6px;
   border: none;
   margin-top: 8px;
   margin-right: 16px;
   font-size: 17px;
-} 
+}
 
 /* Changes color on hover */
 .topnav a:hover {
@@ -59,7 +57,7 @@ body {
 
 /* Create unequal columns that floats next to each other */
 /* Left column */
-.leftcolumn {   
+.leftcolumn {
   float: left;
   width: 75%;
 }
@@ -72,16 +70,12 @@ body {
   padding-left: 40px;
 }
 
-
-
 /* Add a card effect for articles */
 .card {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
 }
-
-
 
 /* Clear floats after the columns */
 .row::after {
@@ -90,11 +84,10 @@ body {
   clear: both;
 }
 
-
-
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
+  .leftcolumn,
+  .rightcolumn {
     width: 100%;
     padding: 0;
   }
@@ -108,7 +101,6 @@ body {
   }
 }
 
-
 /* Creates the Footer */
 .footer {
   padding: 20px;
@@ -118,4 +110,3 @@ body {
 }
 
 /* This whole code I copied form w3school.com (https://www.w3schools.com/css/css_website_layout.asp). I chaned the text and also the picture. I also changed some names of some classes so they have a logical name which is based on the content in boxes/cloums. */
-

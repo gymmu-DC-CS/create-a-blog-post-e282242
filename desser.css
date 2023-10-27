@@ -1,113 +1,105 @@
- /* This will create the box/header where the titel of the website is. */
+/* This will create the box/header where the titel of the website is. */
 .header {
-    background-color: rgb(235, 209, 79);
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    width: auto;
-    font-size: 150%;
-    
+  background-color: rgb(235, 209, 79);
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: auto;
+  font-size: 150%;
 }
 
- /* Everything what will be written with div has this layout */
-div{
-    background-color: rgb(244, 226, 139);
-    width: auto;
-    margin: 20px;
-    padding-left: auto;
-    padding-right: auto;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    border-radius: 5px;
-    border: 2px solid rgb(128, 0, 0);
-    
+/* Everything what will be written with div has this layout */
+div {
+  background-color: rgb(244, 226, 139);
+  width: auto;
+  margin: 20px;
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(128, 0, 0);
 }
 
-
-
-  /* Creates equal colums which float next to each other */
+/* Creates equal colums which float next to each other */
 .column {
-    float: left;
-    width: 33.33%;
-    padding: 55px;
-  }
-  
-  /* Clear floats after the columns */
-  .row::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+  float: left;
+  width: 33.33%;
+  padding: 55px;
+}
 
- /* Everything image with the title="rice" will be styled with this code */  
-[title~="rice"]{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid rgb(128, 0, 0);
-    border-radius: 4px;
-    padding: 5px;
-    width: auto;
- }
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
+/* Everything image with the title="rice" will be styled with this code */
+[title~="rice"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgb(128, 0, 0);
+  border-radius: 4px;
+  padding: 5px;
+  width: auto;
+}
 
+/* Box with a link and text which is linked, before you click on the link*/
+a:link,
+a:visited {
+  background-color: rgb(106, 203, 119);
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: black;
+  left: 7px;
+  right: auto;
+}
 
- /* Box with a link and text which is linked, before you click on the link*/
-  a:link, a:visited {
-    background-color: rgb(106, 203, 119);
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    position: relative;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 5px;
-    border-color: black;
-    left: 7px;
-    right: auto;
-    
-    
-  }
+/* If you go over=hover the box with the link if will change it's colour. */
+a:hover,
+a:active {
+  background-color: rgb(55, 143, 125);
+}
 
-   /* If you go over=hover the box with the link if will change it's colour. */
-  a:hover, a:active {
-    background-color: rgb(55, 143, 125);
-  }
-
-   /* Creates the box where the name of the dessert is listed. */
-  .boxofK{
-    background-color: rgb(244, 226, 139);
-    text-align: center;
-    border: 2px solid rgb(128, 0, 0);
-    padding: 5px;
-    margin-top: 50px;
-    margin-bottom: 5px;
-    margin-left: 20px;
-    margin-right: 810px;
-    }
-
+/* Creates the box where the name of the dessert is listed. */
+.boxofK {
+  background-color: rgb(244, 226, 139);
+  text-align: center;
+  border: 2px solid rgb(128, 0, 0);
+  padding: 5px;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 810px;
+}
 
 /* Creates that the name of the dessert is in the center of its box*/
-.title{
-    text-align: center;
+.title {
+  text-align: center;
 }
 
- /* Is responsible that the box-sizing takes into account the padding of the text and adjust to it.*/
+/* Is responsible that the box-sizing takes into account the padding of the text and adjust to it.*/
 * {
   box-sizing: border-box;
 }
 
-
- /* Create the position of the tooltip*/
+/* Create the position of the tooltip*/
 .tooltip {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black;
 }
 
- /* Styles the actual text in the tooltip which is hidden but will be visible on hover */
+/* Styles the actual text in the tooltip which is hidden but will be visible on hover */
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
@@ -122,7 +114,7 @@ div{
   left: 110%;
 }
 
- /* Create what will happen if you end the hover-action */
+/* Create what will happen if you end the hover-action */
 .tooltip .tooltiptext::after {
   content: "";
   position: absolute;
@@ -139,9 +131,8 @@ div{
   visibility: visible;
 }
 
-
- /* Create the style of specifice images which are labeled with the title="culture" */
-[title~="culture"]{
+/* Create the style of specifice images which are labeled with the title="culture" */
+[title~="culture"] {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -152,22 +143,3 @@ div{
   padding: 5px;
   width: 450px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
